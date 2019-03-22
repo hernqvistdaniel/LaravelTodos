@@ -19,3 +19,4 @@ Route::get('todos', 'TodosController@index');
 
 Route::get('todos/{todo}', 'TodosController@show');
 
+Route::any('adminer', '\Miroc\LaravelAdminer\AdminerAutologinController@index');
